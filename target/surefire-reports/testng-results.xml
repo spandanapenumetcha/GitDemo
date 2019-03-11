@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64680" started-at="2019-03-09T00:24:33Z" finished-at="2019-03-09T00:25:38Z">
+    <groups>
+    </groups>
+    <test name="validated the contact" duration-ms="14400" started-at="2019-03-09T00:24:33Z" finished-at="2019-03-09T00:24:47Z">
+      <class name="Academy.validatingnavigationbar">
+        <test-method status="PASS" signature="homepagenavigation()[pri:0, instance:Academy.validatingnavigationbar@6a28ffa4]" name="homepagenavigation" duration-ms="11824" started-at="2019-03-09T00:24:33Z" finished-at="2019-03-09T00:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagenavigation -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:Academy.validatingnavigationbar@6a28ffa4]" name="closewindow" is-config="true" duration-ms="2523" started-at="2019-03-09T00:24:45Z" finished-at="2019-03-09T00:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Academy.validatingnavigationbar -->
+    </test> <!-- validated the contact -->
+    <test name="validated the title" duration-ms="12249" started-at="2019-03-09T00:24:47Z" finished-at="2019-03-09T00:25:00Z">
+      <class name="Academy.validatingtitle">
+        <test-method status="PASS" signature="homepagenavigation()[pri:0, instance:Academy.validatingtitle@28eaa59a]" name="homepagenavigation" duration-ms="9800" started-at="2019-03-09T00:24:47Z" finished-at="2019-03-09T00:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagenavigation -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:Academy.validatingtitle@28eaa59a]" name="closewindow" is-config="true" duration-ms="2447" started-at="2019-03-09T00:24:57Z" finished-at="2019-03-09T00:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Academy.validatingtitle -->
+    </test> <!-- validated the title -->
+    <test name="validate loginpage" duration-ms="37989" started-at="2019-03-09T00:25:00Z" finished-at="2019-03-09T00:25:38Z">
+      <class name="Academy.homepage">
+        <test-method status="PASS" signature="homepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@619713e5]" name="homepagenavigation" duration-ms="19136" started-at="2019-03-09T00:25:00Z" data-provider="getdata" finished-at="2019-03-09T00:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spandanap@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shcdh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagenavigation -->
+        <test-method status="PASS" signature="homepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@619713e5]" name="homepagenavigation" duration-ms="18706" started-at="2019-03-09T00:25:19Z" data-provider="getdata" finished-at="2019-03-09T00:25:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harsha@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdscvf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2nd user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagenavigation -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:Academy.homepage@619713e5]" name="closewindow" is-config="true" duration-ms="143" started-at="2019-03-09T00:25:37Z" finished-at="2019-03-09T00:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Academy.homepage -->
+    </test> <!-- validate loginpage -->
+    <test name="Test" duration-ms="0" started-at="2019-03-09T00:25:38Z" finished-at="2019-03-09T00:25:38Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
