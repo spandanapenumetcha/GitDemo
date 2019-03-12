@@ -27,6 +27,9 @@ public void homepagenavigation() throws IOException
 	Assert.assertTrue(lp.contactelement().isDisplayed());
 	log.info("contact element validated");
 	
+	System.out.println("new code");
+	
+	
 }
 @AfterTest
 

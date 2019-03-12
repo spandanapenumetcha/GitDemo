@@ -28,6 +28,8 @@ public void homepagenavigation() throws IOException
 	Assert.assertEquals(lp.mainpageelement().getText(), "FEATURED COURSES");
 	log.info("main page element validated");
 	
+	System.out.println("another change");
+	
 }
 @AfterTest
 
