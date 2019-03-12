@@ -28,6 +28,7 @@ public void homepagenavigation(String username, String password, String text) th
 	log.info("user1 and user2 validated");
 	lop.login().click();
 
+	System.out.println("hello did another change ");
 	
 }
 @AfterTest
